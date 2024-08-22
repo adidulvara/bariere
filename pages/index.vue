@@ -140,7 +140,9 @@ const selectedTariff = ref('');
 const vehicleTypes = [
   { type: 'CAR_SUV', label: 'Mașină / SUV', icon: '🚗', price: 30 },
   { type: 'TRUCK', label: 'Camion', icon: '🚚', price: 250 },
-  { type: 'MINITRUCK', label: 'Dubă', icon: '🚐', price: 40 },
+  { type: 'MINIVAN', label: 'Dubă', icon: '🚐', price: 40 },
+  { type: 'VAN', label: 'Duba < 7.5T', icon: '🚛', price: 70 },
+  { type: 'BIG_VAN', label: "Duba > 7.5T", icon: '🚜', price: 110 },
 ];
 
 const tariffs = [
